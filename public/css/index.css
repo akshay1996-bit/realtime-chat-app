@@ -1,0 +1,44 @@
+body{
+    font-family: 'Lato';
+}
+.header{
+    font-size: 20px;
+    font-family: Lato;
+}
+.main-container{
+    width: 100%;
+    font-family: 'Lato';
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.online{
+    width: 30%;
+    background-color: #739BC1;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.online-heading{
+    font-size: 20px;
+    opacity: 1;
+    color: #0B0F13;
+}
+
+.chat-container{
+    background-color: #89D6FB;
+    flex: 1;
+}
+
+.single-chat{
+    display: flex;
+    flex-direction: column;
+    background-color: #8CCA72;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px;
+}
